@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "discordbridge",
+	"version": "${version}",
+	"name": "Discord Bridge",
+	"description": "Two-way chat bridge between the Minecraft server and a Discord channel.",
+	"authors": ["You"],
+	"license": "MIT",
+	"environment": "server",
+	"entrypoints": {
+		"main": ["dev.discordbridge.DiscordBridge"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
